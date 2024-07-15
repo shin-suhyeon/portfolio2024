@@ -1,0 +1,144 @@
+.header_nav {}
+.header_nav header{display: flex; border-bottom: 1px solid black; padding-bottom: 18px; }
+.header_nav header h1{ padding-top: 25px;}
+.header_nav header h1 a{font-family: "Antic Didone", serif; margin-left: 80px; margin-right: 503px; font-size: 2rem;}
+.header_nav header nav{padding-top: 30px;}
+.header_nav header nav > a{font-family: "Antic Didone", serif; margin-right: 100px; font-size: 1.5rem;}
+.header_nav header nav .ma{font-family: "Antic Didone", serif; margin-right: 0;}
+/* =============================================================================bg1===================================================================================*/
+.bg1 {display: flex;}
+.bg1 .right{margin-top: 160px; margin-left: 220px;}
+.bg1 .right h1{}
+.bg1 .right h1 img{}
+.bg1 .left{margin-top: 123px; margin-left: 173px;}
+.bg1 .left h1{}
+.bg1 .left h1 img{}
+/* =============================================================================bg2===================================================================================*/
+.bg2{}
+.bg2 .all{display: flex;}
+.bg2 .all .right{margin-top: 107px;}
+.bg2 .all .right h1{}
+.bg2 .all .right h1 img{margin-left: 245px; width: 305px; height: 365px;}
+.bg2 .all .right h2{font-family: "Brygada 1918", serif; font-size: 4rem; margin-left: 208px; margin-top: 36px; margin-bottom: 32px;}
+.bg2 .all .right p{font-family: "Nanum Gothic", sans-serif; font-size: 1.25rem; margin-left: 107px; line-height: 30px;}
+.bg2 .all .left{margin-top: 82px; margin-left: 190px;}
+/* about */
+.bg2 .all .left .about{}
+.bg2 .all .left .about h1{font-family: "Brygada 1918", serif; font-size: 1.75rem; margin-bottom: 24px; font-weight: 500;}
+.bg2 .all .left .about dl{display: flex; flex-flow: row wrap;}
+.bg2 .all .left .about dl dt{font-family: "Brygada 1918", serif; font-size: 1.25rem; width: 85px; margin-bottom: 27px;font-weight: 500;}
+.bg2 .all .left .about dl dd{font-size: 1.125rem;width: calc(50% - 85px);}
+/* Education */
+.bg2 .all .left .Education{margin-top: 18px;}
+.bg2 .all .left .Education h1{font-family: "Brygada 1918", serif;font-size: 1.75rem; margin-bottom: 33px;font-weight: 500;}
+.bg2 .all .left .Education dl{display: flex; flex-flow: row wrap;font-weight: 500;}
+.bg2 .all .left .Education dl dt{font-size: 1.25rem; margin-right: 30px;font-weight: 500;}
+.bg2 .all .left .Education dl dd{font-size: 1.125rem;}
+.bg2 .all .left .cc{display: flex; margin-top: 46px;}
+/* Career */
+.bg2 .all .left .cc .Career{}
+.bg2 .all .left .cc .Career h1{font-family: "Brygada 1918", serif; font-size: 1.75rem; margin-bottom: 24px; font-weight: 500;}
+.bg2 .all .left .cc .Career dl{display: flex;}
+.bg2 .all .left .cc .Career dl dt{font-size: 1.25rem; margin-right: 30px;font-weight: 500;}
+.bg2 .all .left .cc .Career dl dd{font-size: 1.125rem;margin-right: 203px;}
+/* Certificate */
+.bg2 .all .left .cc .Certificate {}
+.bg2 .all .left .cc .Certificate h1 {font-family: "Brygada 1918", serif;font-size: 1.75rem;font-weight: 500; margin-bottom: 32px;}
+.bg2 .all .left .cc .Certificate dl{display: flex; flex-flow: row wrap; width: 246px;} 
+.bg2 .all .left .cc .Certificate dl dt{font-size: 1.25rem;font-weight: 500; margin-bottom: 10px;}
+.bg2 .all .left .cc .Certificate dl dd{font-size: 1.125rem;}
+/* skill */
+.bg2 .all .left .skill{margin-top: 55px;}
+.bg2 .all .left .skill h1{font-family: "Brygada 1918", serif;font-size: 1.75rem;}
+.bg2 .all .left .skill .skill_img{display: inline-block; }
+.bg2 .all .left .skill .skill_img a{}
+.bg2 .all .left .skill .skill_img a img{margin-right: 48px;}
+.bg2 .all .left .skill .skill_img .last img{margin-right: 0;}
+.bg2 .all .left .skill .skill_img p{}
+.bg2 .all .left .skill .detail{}
+.bg2 .all .left .skill .detail h1{}
+/* =============================================================================bg3===================================================================================*/
+.bg3{}
+.bg3 .all{}
+.bg3 .all .right{}
+.bg3 .all .right h1{}
+.bg3 .all .right h2{}
+.bg3 .all .right h2 img{}
+.bg3 .all .left{}
+.bg3 .all .left h1{}
+.bg3 .all .left h1 em{}
+.bg3 .all .left p{}
+.bg3 .all .left p span{}
+.bg3 .all .left a{}
+/* =============================================================================bg4===================================================================================*/
+.bg4 {}
+.bg4 .swiper{}
+.bg4 .swiper .swiper-wrapper{}
+.bg4 .swiper .swiper-wrapper .swiper-slide{}
+/* nike */
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .right{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h2 {} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h2 img{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left h1 em{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left p{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left p span{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left a{} 
+/* MMALL */
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h2 {} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h2 img{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left h1 em{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left p{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left p span{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left a{}
+/* mac */
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .right{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h2 {} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h2 img{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left h1 em{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left p{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left p span{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left a{}
+/* isaac */
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h2 {} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h2 img{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left h1{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left h1 em{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left p{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left p span{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left a{}
+/* 버튼 */
+
+/* =============================================================================bg5===================================================================================*/
+.bg5{}
+.bg5 h1{}
+.bg5 .sns{}
+.bg5 .sns .swiper{}
+.bg5 .sns .swiper .swiper-wrapper{}
+.bg5 .sns .swiper .swiper-wrapper .swiper-slide{} 
+.bg5 .sns .swiper .swiper-wrapper .swiper-slide img{} 
+/* =============================================================================bg6===================================================================================*/
+.bg6{}
+.bg6 h1{}
+.bg6 h1 .thankyou{}
+.bg6 h1 .thankyou h2{}
+.bg6 h1 .thankyou h3{}
+.bg6 h1 .thankyou h3 img{}
+.bg6 h1 .thankyou p{}
+.bg6 h1 .thankyou p em{}
