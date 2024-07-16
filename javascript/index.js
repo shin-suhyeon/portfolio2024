@@ -16,7 +16,7 @@ const snsS = new Swiper('.sns .swiper',{
     //반응형 슬라이드 수
     breakpoints:{
         800:{slidesPerView:3,}, //800 이상일떄 3개
-        1200:{slidesPerView:7,}, //1200이상일때 4개
+        1200:{slidesPerView:4,}, //1200이상일때 4개
     }
 })
 /* 풀페이지 */

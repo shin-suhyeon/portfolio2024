@@ -166,6 +166,8 @@ transform: scale(1.05);
 }
 .bg3 .all .right h2 img{transition: 1s;}
 .bg3 .all .right h2 img:hover{transform: scale(1.05);}
+.bg5 .sns .swiper .swiper-wrapper .swiper-slide img{transition: 1s;}
+.bg5 .sns .swiper .swiper-wrapper .swiper-slide img:hover{transform: scale(1.05);}
 /* nav */
 /* 뭐 보러가기 */
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .left a {transition: 1s;}
