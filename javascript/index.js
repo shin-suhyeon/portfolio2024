@@ -1,5 +1,5 @@
 const bg4 = new Swiper('.bg4 .swiper', {
-    autoplay:{delay:1000},
+    // autoplay:{delay:1000},
     loop:true,
     navigation:{
         nextEI:'.web .swiper-button-prev',
@@ -19,3 +19,5 @@ const snsS = new Swiper('.sns .swiper',{
         1200:{slidesPerView:7,}, //1200이상일때 4개
     }
 })
+/* 풀페이지 */
+$("main").fullpage({})

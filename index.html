@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>신수현 2024포트폴리오</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./javascript/jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="./styles/jquery.fullPage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
@@ -25,19 +28,18 @@
         <header>
             <h1><a href="#">Portfolio</a></h1>
             <nav>
-                <a href="#">Info</a>
-                <a href="#">Profile</a>
-                <a href="#">App Project</a>
-                <a href="#">Web Project</a>
-                <a href="#">Design</a>
-                <a href="#" class="ma">Nail</a>
+                <a href="#info">Info</a>
+                <a href="#profile">Profile</a>
+                <a href="#app_project">App Project</a>
+                <a href="#web_project">Web Project</a>
+                <a href="#design">Design</a>
             </nav>
         </header> 
     </div>
 </body>
-<main>
+<main id="fullPage">
     <!-- bg1 -->
-    <div class="bg1">
+    <div class="bg1 section" id="info">
         <div class="right">
             <h1><img src="./img/bg1.png" alt=""></h1>
         </div>
@@ -46,13 +48,12 @@
         </div>
     </div>
     <!-- bg2 -->
-    <div class="bg2">
+    <div class="bg2 section" id="profile">
         <div class="all">
             <div class="right">
                 <h1><img src="./img/profile_photo.png" alt=""></h1>
                 <h2>Shin Su Hyeon</h2>
-                <p>웹 프로그래밍 언어를 깊이 연구하고 발전시켜, 기능이 향상된<br>
-                    웹 접근성을 구현하여 모든 사용자가 손쉽게 접근하고 흥미롭게<br>이용할 수 있는 웹사이트를 구축하는 것을 목표로 삼고 있습니다.</p>
+                <p>프로그래밍 언어를 연구하고 발전시키며, 웹 접근성을<br>개선하여 모든 사용자가 쉽게 접근하고 즐겁게 이용할 수<br> 있는 사이트를 구축하는 것을 목표로 하고 있습니다.</p>
             </div>
             <div class="left">
                 <div class="about">
@@ -86,58 +87,45 @@
                     <div class="Certificate">
                         <h1>Certificate</h1>
                         <dl>
-                            <dt>2019.08</dt>
-                            <dd>미용사 네일 자격증</dd>
-                            <dt>2019.08</dt>
-                            <dd>미용사 네일 자격증</dd>
-                            <dt>2019.08</dt>
-                            <dd>미용사 네일 자격증</dd>
+                            <dt>2019.08 </dt>
+                            <dd> 미용사 네일 자격증</dd>
+                            <dt>2019.08 </dt>
+                            <dd> 미용사 네일 자격증</dd>
+                            <dt>2019.08 </dt>
+                            <dd> 미용사 네일 자격증</dd>
                         </dl>
                     </div>
                 </div>
                 <div class="skill">
                     <h1>Skill</h1>
-                    <div class="skill_img">
-                        <a href="#"><img src="./img/css.png" alt="css"></a>
-                        <a href="#"><img src="./img/html.png" alt="html"></a>
-                        <a href="#"><img src="./img/js.png" alt="js"></a>
-                        <a href="#"><img src="./img/iller.png" alt="iller"></a>
-                        <a href="#"><img src="./img/figma.png" alt="figma"></a>
-                        <a href="#"><img src="./img/photoshop.png" alt="photoshop"></a>
-                        <a href="#"><img src="./img/gpt.png" alt="gpt"></a>
-                        <a href="#" class="last"><img src="./img/notion.png" alt="notion"></a>
-                        <p>Click!</p>
-                    </div>
-                    <div class="detail">
-                        <h1>머시기머시기머시기 </h1>
-                    </div>
+                    <p><img src="./img/icons.png" alt=""></p>
                 </div>
             </div>
         </div>
     </div>
     <!-- bg3 -->
-    <div class="bg3">
+    <div class="bg3 section" id="app_project">
         <div class="all">
             <div class="right">
                 <h1>Team Project</h1>
                 <h2><img src="./img/bg3_t.png" alt=""></h2>
             </div>
             <div class="left">
-                <h1>T끌<em>App  Project</em></h1>
-                <p><span>인원</span>: 4명</p>
-                <p><span>사용 프로그램</span>: Figma</p>
-                <p><span>담당업무</span>:로고, 택시페이지,  메인 화면 디자인</p>
-                <p><span>목적</span>: 편리한 교통 정보 제공<br>
+                <h1>T끌<em>App Project</em></h1>
+                <p><span>인원 </span> : 4명</p>
+                <p><span>사용 프로그램 </span> : Figma</p>
+                <p><span>담당업무 </span> : 로고, 택시페이지,  메인 화면 디자인</p>
+                <p class="line"><span>목적 </span> : 편리한 교통 정보 제공<br>
                     사용자에게 실시간 대중교통 시간표, 경로, 위치 정보를 제공하여 효율적인 이동을 돕습니다.<br>
                     이를 통해 사용자는 대중교통 이용 계획을 보다 쉽게 세울 수 있게 하는것.</p>
-                <p><span>제작기간</span>: 2024.5 29 ~ 2024.5.24</p>
-                <a href="#">기획서 보러가기</a>
-                <a href="#">프로토타입 보러가기 </a>
+                <p><span>제작기간 </span> : 2024.5 29 ~ 2024.5.24</p>
+                <a href="https://www.figma.com/proto/BtqjV7KzKN9nXwYnnYROkf/T%EB%81%8C-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&node-id=1-39&viewport=1037%2C361%2C0.13&t=VeetXn9mT81CSw7g-1&scaling=min-zoom&content-scaling=fixed" target="_blank">기획서 보러가기</a>
+                <a href="#" class="po">프로토타입 보러가기 </a>
             </div>
         </div>
     </div>
     <!-- bg4 -->
-    <div class="bg4">
+    <div class="bg4 section" id="web_project">
         <!-- swiper > swiper-wrapper > swiper-slide -->
         <div class="swiper">
             <div class="swiper-wrapper">
@@ -155,8 +143,8 @@
                                 새로운 제품, 할인 이벤트, 프로모션 등을 효과적으로 관리하고<br>
                                 홍보할 수 있는 기능을 강화하여 마케팅 활동을 지원하는것.</p>
                             <p><span>제작기간</span>: 2024.7.4 ~ 2024.7.10</p>
-                            <a href="#">기획서 보러가기</a>
-                            <a href="#">Git hub 보러가기</a>
+                            <a href="https://www.figma.com/proto/fsLbiW6yP7GKBdPrvArXOx/%EB%82%98%EC%9D%B4%ED%82%A4-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&node-id=1-10&viewport=-1254%2C533%2C0.39&t=axXc7TI7Ofb1DxWI-1&scaling=contain&content-scaling=fixed" target="_blank">기획서 보러가기</a>
+                            <a href="#" class="git">Git hub 보러가기</a>
                             <a href="#">Website 바로가기</a>
                         </div>
                     </div>
@@ -168,15 +156,15 @@
                             <h2><img src="./img/mmall.png" alt=""></h2>
                         </div>
                         <div class="left">
-                            <h1>M.MALL<span>Website Redesign</span></h1>
+                            <h1>M.MALL<em>Website Redesign</em></h1>
                             <p><span>개인</span> 100%</p>
                             <p><span>사용 프로그램</span>: Figma, Css, Html, Javascript</p>
                             <p><span>목적</span>: 통합된 콘텐츠 관리  <br>
                                 새로운 제품, 할인 이벤트, 프로모션 등을 효과적으로 관리하고 <br>
                                 홍보할 수 있는 기능을 강화하여 마케팅 활동을 지원하는것.</p>
                             <p><span>제작기간</span>: 2024.6.27 ~ 2024.7.3</p>
-                            <a href="#">기획서 보러가기</a>
-                            <a href="#">Git hub 보러가기</a>
+                            <a href="https://www.figma.com/proto/TfMuwMMkDCtqJAF6nAOYcL/%ED%98%84%EB%8C%80%EB%AA%B0-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&node-id=2-137&viewport=760%2C455%2C0.07&t=NHgCgKPn5M279qQQ-1&scaling=contain&content-scaling=fixed" target="_black">기획서 보러가기</a>
+                            <a href="#" class="git">Git hub 보러가기</a>
                             <a href="#">Website 바로가기</a>
                         </div>
                     </div>
@@ -188,7 +176,7 @@
                             <h2><img src="./img/mac.png" alt=""></h2>
                         </div>
                         <div class="left">
-                            <h1>MAC<span>Website Redesign</span></h1>
+                            <h1>MAC<em>Website Redesign</em></h1>
                             <p><span>개인</span>100%</p>
                             <p><span>사용 프로그램</span>:  Figma, Css, Html, Javascript</p>
                             <p><span>목적</span>:  디자인과 UX 이해<br>
@@ -196,8 +184,9 @@
                                 클론코딩함으로써 효과적인 디자인 원칙과 사용자 인터페이스(UI) 설계를<br>
                                 이해하고 적용하는 방법을 배우는 것.</p>
                             <p><span>제작기간</span>: 2024.5 29 ~ 2024.5.24</p>
-                            <a href="#">기획서 보러가기</a>
-                            <a href="#">프로토타입 보러가기 </a>
+                            <a href="https://www.figma.com/proto/4gsPeaJWsbg3bfGnpuhXqE/%EB%A7%A5-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&node-id=1-135&viewport=718%2C477%2C0.08&t=naaok6bEatvjHT37-1&scaling=contain&content-scaling=fixed" target="_blank">기획서 보러가기</a>
+                            <a href="#" class="git">Git hub 보러가기</a>
+                            <a href="#">Website 바로가기 </a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +197,7 @@
                             <h2><img src="./img/isaac.png" alt=""></h2>
                         </div>
                         <div class="left">
-                            <h1>Isaac Toast<span>Website Redesign</span></h1>
+                            <h1>Isaac Toast<em>Clone Coding</em></h1>
                             <p><span>개인</span>100%</p>
                             <p><span>사용 프로그램</span>:  Figma, Css, Html, Javascript</p>
                             <p><span>목적</span>:  디자인과 UX 이해<br>
@@ -216,8 +205,9 @@
                                 클론코딩함으로써 효과적인 디자인 원칙과 사용자 인터페이스(UI) 설계를<br>
                                 이해하고 적용하는 방법을 배우는 것.</p>
                             <p><span>제작기간</span>: 2024.5 29 ~ 2024.5.24</p>
-                            <a href="#">기획서 보러가기</a>
-                            <a href="#">프로토타입 보러가기 </a>
+                            <a href="https://www.figma.com/proto/CQQP6UFUZxwY8WdlG7ibju/%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8-%EA%B8%B0%ED%9A%8D%EC%84%9C?page-id=0%3A1&node-id=1-47&viewport=718%2C477%2C0.22&t=bmJxzRVGFIRgD0FQ-1&scaling=contain&content-scaling=fixed" target="_blank">기획서 보러가기</a>
+                            <a href="#" class="git">Git hub 보러가기</a>
+                            <a href="#">Website 바로가기 </a>
                         </div>
                     </div>
                 </div>
@@ -225,12 +215,10 @@
             <!-- 내비게이션이 슬라이드 안에 있을때 생성위치 -->
         </div><!-- swiper 닫는 위치 -->
         <!-- 내비게이션이 슬라이드 밖에 있을때 생성위치 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
         <!-- 이전다음 작성후 스크립트 추가 작성 -->
     </div>
     <!-- bg5 -->
-    <div class="bg5">
+    <div class="bg5 section" id="design">
         <h1>Design</h1>
         <div class="sns">
             <div class="swiper"><!-- 보이는 영역 -->
@@ -256,7 +244,7 @@
         </div>
     </div>
     <!-- bg6 -->
-    <div class="bg6">
+    <div class="bg6 section">
         <h1>Contact To Me</h1>
         <div class="thankyou">
             <h2>포트폴리오를 끝까지 확인해 주셔서 감사합니다. <br>
