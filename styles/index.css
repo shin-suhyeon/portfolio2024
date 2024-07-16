@@ -73,12 +73,12 @@ body, html {scroll-behavior: smooth;}
 .bg4 .swiper .swiper-wrapper{}
 .bg4 .swiper .swiper-wrapper .swiper-slide{}
 /* nike */
-.bg4 .swiper .swiper-wrapper .swiper-slide .nike{display: flex; width: 1600px; margin: 0 auto;justify-content: space-between; margin-top: 50px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike{display: flex; width: 1920px; margin: 0 auto;justify-content: space-between; margin-top: 50px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .right{} 
-.bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 66px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 39px; margin-left: 140px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h2 {} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .right h2 img{} 
-.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .nike .left{margin-right: 200px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .left h1{margin-top: 200px; font-size: 3rem; border-bottom: 1px solid black; padding-bottom: 30px; font-family: "Nanum Gothic", sans-serif;display: inline-block;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .left h1 em{margin-left: 250px; color: #B1B1B1; font-family: "Brygada 1918", serif;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .left p{font-size: 1.175rem; margin-top: 30px; font-family: "Nanum Gothic", sans-serif; line-height: 37px;} 
@@ -86,12 +86,12 @@ body, html {scroll-behavior: smooth;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .left a{border: 1px solid black; font-size: 1.15rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .nike .left .git{margin: 0 20px; border: 1px solid black; font-size: 1.25rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;} 
 /* MMALL */
-.bg4 .swiper .swiper-wrapper .swiper-slide .mmall{display: flex; width: 1600px; margin: 0 auto;justify-content: space-between; margin-top: 50px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall{display: flex; width: 1920px; margin: 0 auto;justify-content: space-between; margin-top: 50px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right{} 
-.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 66px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 39px; margin-left: 140px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h2 {} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .right h2 img{} 
-.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left{} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left{margin-right: 110px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left h1{margin-top: 200px; font-size: 3rem; border-bottom: 1px solid black; padding-bottom: 30px; font-family: "Nanum Gothic", sans-serif;display: inline-block;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left h1 em{margin-left: 250px; color: #B1B1B1; font-family: "Brygada 1918", serif;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left p{font-size: 1.175rem; margin-top: 30px; font-family: "Nanum Gothic", sans-serif; line-height: 37px;} 
@@ -100,9 +100,9 @@ body, html {scroll-behavior: smooth;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left .git{margin: 0 20px; border: 1px solid black; font-size: 1.15rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;} 
 
 /* mac */
-.bg4 .swiper .swiper-wrapper .swiper-slide .mac{display: flex; width: 1600px; margin: 0 auto;justify-content: space-between; margin-top: 50px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac{display: flex; width: 1920px; margin: 0 auto; margin-top: 50px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .right{} 
-.bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 66px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 39px; margin-left: 140px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h2 {} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .right h2 img{} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .left{} 
@@ -114,9 +114,9 @@ body, html {scroll-behavior: smooth;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .left .git{margin: 0 20px; border: 1px solid black; font-size: 1.15rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;} 
 
 /* isaac */
-.bg4 .swiper .swiper-wrapper .swiper-slide .isaac{display: flex; width: 1600px; margin: 0 auto;justify-content: space-between; margin-top: 50px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac{display: flex; width: 1920px; margin: 0 auto;margin-top: 50px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right{} 
-.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 66px;} 
+.bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h1{margin-top: 76px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 39px; margin-left: 140px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h2 {} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .isaac .right h2 img{} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left{} 
