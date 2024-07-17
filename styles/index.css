@@ -180,3 +180,5 @@ transform: scale(1.05);
 .bg4 .swiper .swiper-wrapper .swiper-slide .isaac .left a:hover {transform: scale(1.05);}
 .bg3 .all .left a{transition: 1s;}
 .bg3 .all .left a:hover{transform: scale(1.05); }
+.bg1 .right h1 img {transition: 1s;}
+.bg1 .right h1 img:hover {transform: scale(1.05);}
