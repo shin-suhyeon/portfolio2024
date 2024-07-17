@@ -1,5 +1,5 @@
 const bg4 = new Swiper('.bg4 .swiper', {
-    autoplay:{delay:2000},
+    autoplay:{delay:1000},
     speed:3000,
     loop:true,
     navigation:{
