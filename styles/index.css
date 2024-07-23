@@ -21,7 +21,7 @@ body, html {scroll-behavior: smooth;}
 .bg2 .all .right h1{}
 .bg2 .all .right h1 img{width: 305px; height: 365px;}
 .bg2 .all .right h2{font-family: "Brygada 1918", serif; font-size: 4rem;margin-top: 36px; margin-bottom: 32px;}
-.bg2 .all .right p{font-family: "Nanum Gothic", sans-serif; font-size: 1.25rem;line-height: 30px; color: #  434343;}
+.bg2 .all .right p{font-family: "Nanum Gothic", sans-serif; font-size: 1.25rem;line-height: 30px; color: #434343;}
 .bg2 .all .left{margin-top: 82px; margin-left: 120px;}
 /* about */
 .bg2 .all .left .about{}

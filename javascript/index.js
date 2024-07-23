@@ -1,6 +1,6 @@
 const bg4 = new Swiper('.bg4 .swiper', {
-    autoplay:{delay:1000},
-    speed:3000,
+    autoplay:{delay:3000},
+    speed:1000,
     loop:true,
     navigation:{
         nextEI:'.web .swiper-button-prev',
