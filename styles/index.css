@@ -1,4 +1,5 @@
 body, html {scroll-behavior: smooth;}
+body > * {min-width: 1920px;}
 .header_nav {}
 .header_nav header{display: flex; border-bottom: 1px solid black; padding-bottom: 18px; position: fixed; background-color: white; z-index: 999; width: 100%;}
 .header_nav header h1{ padding-top: 25px;}
@@ -97,6 +98,7 @@ body, html {scroll-behavior: smooth;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left p{font-size: 1.175rem; margin-top: 30px; font-family: "Nanum Gothic", sans-serif; line-height: 37px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left p span{font-weight: 600;font-family: "Nanum Gothic", sans-serif;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left a{border: 1px solid black; font-size: 1.25rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;}
+.bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left .web{margin-left: 20px;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .mmall .left .git{margin: 0 20px; border: 1px solid black; font-size: 1.15rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;} 
 
 /* mac */
@@ -111,6 +113,7 @@ body, html {scroll-behavior: smooth;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .left p{font-size: 1.175rem; margin-top: 30px; font-family: "Nanum Gothic", sans-serif; line-height: 37px;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .left p span{font-weight: 600;font-family: "Nanum Gothic", sans-serif;} 
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .left a{border: 1px solid black; font-size: 1.15rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;}
+.bg4 .swiper .swiper-wrapper .swiper-slide .mac .left .web{margin-left: 20px;}
 .bg4 .swiper .swiper-wrapper .swiper-slide .mac .left .git{margin: 0 20px; border: 1px solid black; font-size: 1.15rem; display: inline-block; padding: 7px 20px; margin-top: 20px; border-radius: 10px;} 
 
 /* isaac */
@@ -139,8 +142,8 @@ body, html {scroll-behavior: smooth;}
 .bg5 .sns .swiper .swiper-wrapper .swiper-slide img{} 
 /* =============================================================================bg6===================================================================================*/
 .bg6{}
-.bg6 h1{padding-top: 91px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 91px; margin-left: 178px;}
-.bg6 .thankyou{text-align: center; font-size: 1.5rem; margin-bottom: 234px;}
+.bg6 h1{padding-top: 91px; font-size: 5.625rem; font-family: "Brygada 1918", serif; margin-bottom: 51px; margin-left: 178px;}
+.bg6 .thankyou{text-align: center; font-size: 1.5rem; }
 .bg6 .thankyou h2{font-family: "Nanum Gothic", sans-serif; font-size: 1.5rem; line-height: 35px;}
 .bg6 .thankyou h3{margin: 25px 0;}
 .bg6 .thankyou h3 img{}
