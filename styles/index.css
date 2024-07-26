@@ -1,5 +1,5 @@
 body, html {scroll-behavior: smooth;}
-body > * {min-width: 1920px;}
+body, html > * {max-width: 1920px;}
 .header_nav {}
 .header_nav header{display: flex; border-bottom: 1px solid black; padding-bottom: 18px; position: fixed; background-color: white; z-index: 999; width: 100%;}
 .header_nav header h1{ padding-top: 25px;}
